@@ -7,7 +7,7 @@ export default {
   deviceName: 'WppConnect',
   poweredBy: 'WPPConnect-Server',
   startAllSession: true,
-  tokenStoreType: 'redis',
+  tokenStoreType: 'file',
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
   webhook: {
@@ -94,7 +94,7 @@ export default {
     redisPort: 6379,
     redisPassword: '',
     redisDb: 0,
-    redisPrefix: '',
+    redisPrefix: 'docker',
   },
   aws_s3: {
     region: 'sa-east-1' as any,
