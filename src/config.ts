@@ -94,7 +94,7 @@ export default {
     redisPort: 6379,
     redisPassword: '',
     redisDb: 0,
-    redisPrefix: 'docker',
+    redisPrefix: '',
   },
   aws_s3: {
     region: 'sa-east-1' as any,
